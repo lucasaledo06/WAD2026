@@ -14,7 +14,11 @@
 #            $frase = 'Luisja tiene $edad años' //<-- Con las comillas simples no podemos introducir variables en el texto
             $profesor = true; //<-- Valor booleano (verdadero o falso)
             /*Mostrar datos por pantalla*/
-
+            echo $edad;
+            echo "<br>"; // <-- Salto de línea
+            echo $estatura;
+            echo "<br>";
+            echo "Tu nombre es: $nombre" //<-- Concatenar
         ?>      
     </body>
 </html>
