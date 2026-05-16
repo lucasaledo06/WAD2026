@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Plantilla</title>
+        <title>Variables</title>
     </head>
     <body>
         <?php 
