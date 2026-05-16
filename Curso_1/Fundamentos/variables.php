@@ -18,8 +18,10 @@
             echo "<br>"; // <-- Salto de línea
             echo $estatura;
             echo "<br>";
-            echo "Tu nombre es: $nombre" //<-- Concatenar
-            //hola
+            echo "Tu nombre es: $nombre "; //<-- Concatenar
+            echo json_encode($profesor); // <-- Mostrar true or false
+            //$6edad ="hola"; <-- Variable declarada de manera incorrecta
+            //$for = 22; <-- No declarar variables con comandos de php 
         ?>      
     </body>
 </html>
