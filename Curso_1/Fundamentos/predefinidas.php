@@ -14,8 +14,7 @@
             echo "<br>"; // <-- Salto de línea
             echo "Puerto del servidor: " . $_SERVER['SERVER_PORT']; // <-- Variable que sirve para ver el puerto que usa el servidor
             echo "<br>"; // <-- Salto de línea
-
-
+            echo "La variable número es: ". $GLOBALS['numero']; //<-- Variable global para almacenar el resto de las mismas en el programa
 
 
         ?>      
